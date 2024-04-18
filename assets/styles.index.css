@@ -15,16 +15,38 @@
 
 body {
   font-family: "Lobster", sans-serif;
-  color: rgb(248, 89, 184);
+  color: rgb(244, 49, 127);
   padding: 10px;
 }
 
 header {
-  background-color:rgb(243, 158, 195);
+  background-color:rgb(246, 174, 200);
   border-radius: 6px;
   height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center; /*vertical*/
   align-items: center; /*horizontal*/
+}
+
+#principal {
+  border-radius: 6px;
+ height: 800px;
+margin: 10px 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+main {
+  background-color: rgb(238, 182, 255);
+  border-radius: 6px;
+  height: 100%;
+  width: 74%;
+}
+
+aside {
+  background-color: rgb(187, 229, 254);
+  border-radius: 6px;
+  height: 100%;
+  width: 25%;
 }
